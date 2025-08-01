@@ -1,12 +1,12 @@
 # Agentic-AI-Chatbot-for-Real-Time-Football-Analytics-using-LLMs-and-Dynamic-SQL-
                         ┌────────────────────────────┐
-                        │     User Interface Layer    │
+                        │     User Interface Layer   │
                         │ ────────────────────────── │
                         │ • Chatbot (LangChain agent)│
                         └────────────┬───────────────┘
                                      ↓
                         ┌────────────────────────────┐
-                        │       LLM & RAG Layer       │
+                        │       LLM & RAG Layer      │
                         │ ────────────────────────── │
                         │ • LangChain                │
                         │ • NVIDIA AI Endpoints      │
@@ -14,7 +14,7 @@
                         └────────────┬───────────────┘
                                      ↓
                         ┌────────────────────────────┐
-                        │     Agent Orchestration     │
+                        │     Agent Orchestration    │
                         │ ────────────────────────── │
                         │ • LangGraph Modular Agents │
                         │   - Entity Extraction      │
@@ -23,14 +23,14 @@
                         └────────────┬───────────────┘
                                      ↓
                         ┌────────────────────────────┐
-                        │     Data Access & Matching  │
+                        │   Data Access & Matching   │
                         │ ────────────────────────── │
                         │ • RapidFuzz (Fuzzy Match)  │
                         │ • MySQL (Football Schema)  │
                         └────────────┬───────────────┘
                                      ↓
                         ┌────────────────────────────┐
-                        │     Data Storage & ETL      │
+                        │     Data Storage & ETL     │
                         │ ────────────────────────── │
                         │ • Real-time Football APIs  │
                         │ • AWS S3 (raw storage)     │
@@ -38,7 +38,7 @@
                         └────────────┬───────────────┘
                                      ↓
                         ┌────────────────────────────┐
-                        │   Query Execution & Output  │
+                        │  Query Execution & Output  │
                         │ ────────────────────────── │
                         │ • mysql-connector-python   │
                         │ • Dynamic SQL Engine       │
